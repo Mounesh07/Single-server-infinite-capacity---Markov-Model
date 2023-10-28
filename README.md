@@ -9,25 +9,32 @@ Visual components and Python
 ## Theory:
 Queuing are the most frequently encountered problems in everyday life. For example, queue at a cafeteria, library, bank, etc. Common to all of these cases are the arrivals of objects requiring service and the attendant delays when the service mechanism is busy. Waiting lines cannot be eliminated completely, but suitable techniques can be used to reduce the waiting time of an object in the system. A long waiting line may result in loss of customers to an organization. Waiting time can be reduced by providing additional service facilities, but it may result in an increase in the idle time of the service mechanism.
 
-![image](1.png)
+![1](https://github.com/arshatha-palanivel/Single-server-infinite-capacity---Markov-Model/assets/118682484/bd1bbd98-d4c5-4be1-b305-7ef9e1c14771)
+
 
 This is a queuing model in which the arrival is Marcovian and departure distribution is also Marcovian,number of server is one and size of the queue is also Marcovian,no.of server is one and size of the queue is infinite and service discipline is 1st come 1st serve(FCFS) and the calling source is also finite.
 
 ## Procedure :
 
-![imAGE](2.png)
+![2](https://github.com/arshatha-palanivel/Single-server-infinite-capacity---Markov-Model/assets/118682484/d0b2c7ae-8fa7-4bff-96f3-af0fc16e4725)
+
+
 
 
 ## Experiment:
 
-![240808114-5c59ac63-53ac-42fb-823f-06f748465b54](https://github.com/22003264/Single-server-infinite-capacity---Markov-Model/assets/119389139/56d65950-f0a1-4c1d-827e-276d1ed3a3e2)
+![3](https://github.com/arshatha-palanivel/Single-server-infinite-capacity---Markov-Model/assets/118682484/9e6a1fa3-f6e4-411d-a6e1-7aa812e3ca81)
+
+![4](https://github.com/arshatha-palanivel/Single-server-infinite-capacity---Markov-Model/assets/118682484/cd7773a7-4791-4292-9ac1-8be698e7d944)
+
+
 
  
 ## Program
-Developed By: MOUNESH P
-
-Reference No: 212222230084
 ```
+DEVELOPRD BY : MOUNESH P
+REGISTER NO : 212222230084
+
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time=float(input("Enter the mean  inter service time of Lathe Machine (in secs) :  "))
 Robot_time=float(input("Enter the Additional time taken for the Robot (in secs) :  "))
@@ -53,8 +60,11 @@ else:
     print("Warning! Objects Over flow will happen in the conveyor")
 print("---------------------------------------------------------------")
 ```
+
 ## Output :
-![image](https://github.com/22003264/Single-server-infinite-capacity---Markov-Model/assets/119389139/8a972135-b788-47b4-8184-2cd1dc91eec4)
+
+![04](https://github.com/arshatha-palanivel/Single-server-infinite-capacity---Markov-Model/assets/118682484/0b3476e8-48b9-4aba-b24b-c13c4e1fb815)
+
 
 ## Result :
 The average number of material in the sysytem and in the conveyor and waiting time are successfully found.
